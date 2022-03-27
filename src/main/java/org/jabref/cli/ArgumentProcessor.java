@@ -109,7 +109,7 @@ public class ArgumentProcessor {
         }
     }
 
-    private static Optional<ParserResult> importFile(String argument) {
+    public static Optional<ParserResult> importFile(String argument) {
         String[] data = argument.split(",");
 
         String address = data[0];
